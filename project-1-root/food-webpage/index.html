@@ -4,32 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Favorite Fodos</title>
+    <title>Favorite Foods</title>
   </head>
   <body>
     <h1>My Favorite Foods</h1>
     <h3>Navigation</h3>
-    <ul>
-      <li>
-        <a href="../../index.html">Home Page</a>
-      </li>
-      <li>
-        <a href="../anime-webpage/index.html">Favorite Anime Webpage</a>
-      </li>
-      <li>
-        <a href="index.html">Favorite Foods Webpage</a>
-      </li>
-      <li>
-        <a href="../resume-webpage/index.html">Resume Webpage</a>
-      </li>
-    </ul>
+    <nav class="main-navigation">
+      <ul>
+        <li>
+          <a href="../../index.html">Home Page</a>
+        </li>
+        <li>
+          <a href="../anime-webpage/index.html">Favorite Anime Webpage</a>
+        </li>
+        <li>
+          <a href="index.html">Favorite Foods Webpage</a>
+        </li>
+        <li>
+          <a href="../resume-webpage/index.html">Resume Webpage</a>
+        </li>
+      </ul>
+    </nav>
     <p>My favorite foods in order is:</p>
-    <ol class="foods-list">
-      <li><a href="#dosa">Dosa</a></li>
-      <li><a href="#samosa">Samosa</a></li>
-      <li><a href="#dates">Dates</a></li>
-    </ol>
-    <div class="dosa-info">
+    <nav class="food-side-navigation">
+      <ol class="foods-list">
+        <li><a href="#dosa">Dosa</a></li>
+        <li><a href="#samosa">Samosa</a></li>
+        <li><a href="#dates">Dates</a></li>
+      </ol>
+    </nav>
+    <section class="dosa-info">
       <h3 id="dosa">Dosa</h3>
       <p>
         A Dosa is a south indian dish that ressembles a crepe. A Dosa's exterior
@@ -55,8 +59,9 @@
         src="../images/dosa-image.jpg"
         alt="an image of a Dosa with chutney, sambara and potatoes"
       />
-    </div>
-    <div class="samosa-info">
+      <figcaption>A Masala Dosa served with chutney and sambar</figcaption>
+    </section>
+    <section class="samosa-info">
       <h3 id="samosa">Samosa</h3>
       <p>A samosa is a fried or baked pastry that can contain:</p>
       <ul>
@@ -73,13 +78,15 @@
         src="../images/Webp.net-resizeimage.jpg"
         alt="an image of a samosa with some chutney on the side"
       />
-    </div>
-    <div class="dates-info">
+      <figcaption>A soamosa served with chutney</figcaption>
+    </section>
+    <section class="dates-info">
       <h3 id="dates">Dates</h3>
       <p>Dates are a type of fruit, that are chewy and very sweet</p>
       <p>They are also very nutritious and high in fiber</p>
       <p>Dates are commonly brown in color</p>
       <img src="../images/dates-image.jpg" alt="image of dates in a cup" />
-    </div>
+      <figcaption>A couple of dates</figcaption>
+    </section>
   </body>
 </html>
